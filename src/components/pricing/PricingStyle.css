@@ -1,0 +1,61 @@
+.pricing-container {
+  height: 100vh;
+  width: 100%;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.80), black),
+    url("../../images/pricing1.jpg") no-repeat center center/cover;
+
+  padding-top: 1rem;
+}
+
+@media screen and (max-width: 700px) {
+  .pricing-container {
+    height: 165vh;
+  }
+}
+.pricing-container h1 {
+  font-size: 40px;
+  margin-top: 10rem;
+  margin-bottom: 9rem;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+}
+.pricing-container p {
+  padding: 15px;
+  font-size: 25px;
+  color: orange;
+  
+}
+.pricing-row {
+  width: 90%;
+  max-width: 1100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-gap: 25px;
+}
+.first-price-card {
+  background: rgba(255, 255, 255, .3);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 1rem;
+  text-align: center;
+  color: black;
+  font-family: "Josefin Sans", sans-serif;
+  cursor: pointer;
+}
+.first-price-card:hover {
+  transform: translateY(10px);
+  transition: 1s;
+}
+.first-price-card li {
+  margin-right: 2rem;
+  list-style: none;
+  padding: 1rem;
+  color: black;
+  font-weight: bold;
+  
+
+}

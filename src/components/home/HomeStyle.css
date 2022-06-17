@@ -1,0 +1,46 @@
+.home-container {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.15), black),
+    url("../../images/home.jpg") no-repeat center center/cover;
+}
+.home-info {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+}
+.h-home {
+  font-size: 3rem;
+  margin: 5px;
+  line-height: 52px;
+}
+span {
+  color: chocolate;
+}
+
+.btn-home {
+  width: 10rem;
+  height: 3rem;
+  margin-top: 3rem;
+  background-color: chocolate;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  font-size: large;
+  cursor: pointer;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.btn-home:hover{
+    transform: translateY(6px);
+    transition: 1s;
+}
+@media screen and (max-width: 700px) {
+  .h-home {
+    font-size: 2rem;
+  }
+}

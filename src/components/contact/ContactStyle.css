@@ -1,0 +1,98 @@
+.footer-container {
+  height: 110vh;
+  
+
+  background: linear-gradient(rgba(0, 0, 0, 0.1), black),
+    url("../../images/footer1.jpg");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+
+
+.footer-container form {
+  text-align: center;
+  padding-top: 10rem;
+  
+}
+.footer-container .name {
+  width: 33rem;
+  height: 58px;
+  margin: 1rem;
+  background-color: rgb(255, 165, 0, 0.68);
+  color: black;
+  border: none;
+  outline: none;
+  padding: 0px 10px;
+  border-radius: 1rem;
+  font-family: "Josefin Sans", sans-serif;
+
+}
+.footer-container .email {
+  width: 33rem;
+  height: 58px;
+  margin: 1rem;
+  background-color: rgb(255, 165, 0, 0.68);
+  color: black;
+  border: none;
+  outline: none;
+  padding: 0px 10px;
+  border-radius: 1rem;
+  font-family: "Josefin Sans", sans-serif;
+
+}
+.footer-container .msg {
+  width: 33rem;
+  height: 10rem;
+  margin: 1rem;
+  font-family: "Josefin Sans", sans-serif;
+  color: black;
+  border: none;
+  outline: none;
+  padding: 10px 10px;
+  background-color: rgb(255, 165, 0, 0.68);
+  border-radius: 1rem;
+}
+
+.contact-btn {
+  background-color: blue;
+  border: none;
+  height: 45px;
+  width: 8rem;
+  margin: 1rem;
+  cursor: pointer;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+}
+.contact-btn:hover {
+  transform: translateY(5px);
+  transition: 0.6s;
+}
+
+.icons{
+    margin: 5rem;
+    color: orange;
+    
+}
+.icons:hover{
+    color: blue;
+}
+
+
+@media screen and (max-width: 800px) {
+  .footer-container .msg {
+    width: 18rem;
+    height: 10rem;
+  }
+  .footer-container .email {
+    width: 18rem;
+    height: 45px;
+  }
+  .footer-container .name {
+    width: 18rem;
+    height: 45px;
+  }
+}
