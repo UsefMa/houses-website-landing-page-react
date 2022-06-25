@@ -65,7 +65,7 @@ const Navbar = () => {
         <div className="humberger" onClick={mobile}>
           {mobileClick ? (
             <FaTimes
-              size={20}
+              size={20}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
               style={{ marginRight: "10px", cursor: "pointer" }}
             />
           ) : (
@@ -79,5 +79,6 @@ const Navbar = () => {
     </>
   );
 };
+
 
 export default Navbar;
