@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/houses-website-landing-page-react/static/css/main.f01dcb2e.css",
+    "main.js": "/houses-website-landing-page-react/static/js/main.94f725f6.js",
+    "static/media/footer1.jpg": "/houses-website-landing-page-react/static/media/footer1.a31d0c753f333a5921ec.jpg",
+    "static/media/pricing1.jpg": "/houses-website-landing-page-react/static/media/pricing1.2ee26e0a483907498e60.jpg",
+    "static/media/home.jpg": "/houses-website-landing-page-react/static/media/home.a7359e20def50e44fbf3.jpg",
+    "index.html": "/houses-website-landing-page-react/index.html",
+    "main.f01dcb2e.css.map": "/houses-website-landing-page-react/static/css/main.f01dcb2e.css.map",
+    "main.94f725f6.js.map": "/houses-website-landing-page-react/static/js/main.94f725f6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f01dcb2e.css",
+    "static/js/main.94f725f6.js"
+  ]
+}
